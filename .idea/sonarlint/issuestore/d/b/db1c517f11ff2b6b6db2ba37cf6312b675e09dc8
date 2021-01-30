@@ -1,0 +1,10 @@
+
+Qsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Ê‚êX
+_squid:UselessImportCheck"6Remove this unused import 'org.hibernate.query.Query'.(¤— ´ûÿÿÿÿ
+Rsquid:S1068"/Remove this unused "userService" private field.(˜²Ëıÿÿÿÿ8Ø‚±Äî-
+[
+squid:S1066"9Replace this use of System.out or System.err by a logger.(À­÷Èùÿÿÿÿ8â‚ÖÃî-
+V
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ù§é8â‚ÖÃî-
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+isquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(òáÆÛ8ı§±Äî-

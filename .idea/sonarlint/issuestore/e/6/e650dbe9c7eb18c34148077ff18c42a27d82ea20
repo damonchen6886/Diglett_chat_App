@@ -1,0 +1,12 @@
+
+Gsquid:S1148æ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Œ ÙÃî-
+csquid:UselessImportCheck"8Remove this unused import 'com.neu.prattle.model.Group'.(Ãğï‚8Şƒ³Áî-
+lsquid:UselessImportCheck"ARemove this unused import 'com.neu.prattle.model.IndividualChat'.(¤ÁÇÁ8ÔïÌÂî-
+usquid:UselessImportCheck"ERemove this unused import 'java.util.concurrent.CopyOnWriteArraySet'.(Üñí¡úÿÿÿÿ8İÖÌÁî-
+esquid:UselessImportCheck"5Remove this unused import 'javax.websocket.Endpoint'.(¿»ÃÁøÿÿÿÿ8İÖÌÁî-
+Rsquid:S10685"/Remove this unused "chatService" private field.(îÂºúÿÿÿÿ8ÔïÌÂî-
+Zsquid:UselessImportCheck
+"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8İÖÌÁî-
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¼ÖòÀî-
+^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8İÖÌÁî-
+Gsquid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Œ ÙÃî-

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>We Are Digletts!</title>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "style.css" />
+</head>
+<body onload="connect(find());chatGroupList();">
+</div>
+<div class="diglett" >
+    <h1>Diglett Chat</h1>
+    <div class="friend-list1">
+        <h3 id="groupH3"><img src="group.png">Group</h3>
+        <div id="addgroup-form">
+            <span><input  id="addgroup"  placeholder="add/create a group"/></span>
+            <span> <button  id="addgroup-button" onclick="addgroup()" >+</button></span>
+        </div>
+        <ul id="groupList" >
+        </ul>
+    </div><div class="friend-list2">
+    <h3 id="individualH3"><img src="individual.png">Individual</h3>
+    <ul id="nameList" >
+    </ul>
+</div><div class="chat-table">
+    <form>
+        <h3 id="chatWith"></h3>
+        <textarea readonly="true" rows="15" cols="80" id="log" name="field3"></textarea>
+        <input type="text" size="51" id="msg" placeholder="Message"/>
+        <br>
+        <div id="sendButton">
+        </div>
+        <!--        <button class = "button" type="button" onclick="send();" >Send</button>-->
+    </form>
+</div>
+</div>
+
+
+
+
+<div id="find_result"></div>
+
+</body>
+
+<script src="../../../web666/websocket.js"></script>
+
+</html>

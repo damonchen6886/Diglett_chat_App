@@ -1,0 +1,440 @@
+*{margin:0;padding:0;}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    background-color: #1f1f1f;
+    background-image: url(dugtrio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img  {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align:middle;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+header {
+    color: #fff;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: center;
+}
+
+#wrapper {
+    width: 960px;
+    margin: auto;
+    text-align: left;
+    color: #d9d9d9;
+}
+
+p {
+    text-align: left;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#button:hover {
+    background-color: #ffb15e;
+}
+#button a, a:visited, a:hover, a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+#addDevice {
+    text-align: center;
+    width: 960px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#addDeviceForm {
+    text-align: left;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+#addDeviceForm span {
+    display: block;
+}
+
+#content {
+    margin: auto;
+    width: 960px;
+}
+
+.device {
+    width: 180px;
+    height: 110px;
+    margin: 10px;
+    padding: 16px;
+    color: #fff;
+    vertical-align: top;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+}
+
+.device.off {
+    background-color: #c8cccf;
+}
+
+.device span {
+    display: block;
+}
+
+.deviceName {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.removeDevice {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.device.Appliance {
+    background-color: #5eb85e;
+}
+
+.device.Appliance a:hover {
+    color: #a1ed82;
+}
+
+.device.Electronics {
+    background-color: #0f90d1;
+}
+
+.device.Electronics a:hover {
+    color: #4badd1;
+}
+
+.device.Lights {
+    background-color: #c2a00c;
+}
+
+.device.Lights a:hover {
+    color: #fad232;
+}
+
+.device.Other {
+    background-color: #db524d;
+}
+
+.device.Other a:hover {
+    color: #ff907d;
+}
+
+.device a {
+    text-decoration: none;
+}
+
+.device a:visited, a:active, a:hover {
+    color: #fff;
+}
+
+.device a:hover {
+    text-decoration: underline;
+}
+
+
+
+.diglett{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    height: auto;
+    margin: 10px auto;
+    padding: 16px;
+    background-color: rgba(240, 255, 255, 0.5);
+    border-radius: 10px;
+
+
+}
+.diglett h1{
+    background: #43D1AF;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.diglett button{
+    width:100%;
+}
+
+.friend-list1{
+    width:24%;
+    height: 360px;
+    display:inline-block;
+    background-color: rgba(207 ,207, 207,0.5);
+    vertical-align:top;
+}
+
+.friend-list2{
+    width:24%;
+    height: 360px;
+    display:inline-block;
+    background-color:rgba(207 ,207, 207,0.5);
+    vertical-align:top;
+    border-left: solid 1px rgba(156, 156, 156, 0.3);
+}
+
+.friend-list1 h3{
+    border-bottom:solid 1px rgba(156, 156, 156, 0.3);
+    height: 45px;
+    padding: 20px 0;
+    font-size: 140%;
+    text-align: center;
+    color: #fff;
+    margin: -16px 0px 16px -16px;
+
+}
+
+.friend-list2 h3{
+    border-bottom:solid 1px rgba(156, 156, 156, 0.3);
+    padding: 20px 0;
+    height: 45px;
+    font-size: 140%;
+    vertical-align: center;
+    text-align: center;
+    color: #fff;
+    margin: -16px 0px 16px -16px;
+
+}
+.chat-table{
+    width:50%;
+    height:360px;
+    float:right;
+    display:inline-block;
+}
+
+
+.diglett input[type="text"],
+.diglett input[type="date"],
+.diglett input[type="datetime"],
+.diglett input[type="email"],
+.diglett input[type="number"],
+.diglett input[type="search"],
+.diglett input[type="time"],
+.diglett input[type="url"],
+.diglett textarea,
+.diglett select
+{
+    vertical-align:top;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    width:100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.diglett input[type="text"]:focus,
+.diglett input[type="date"]:focus,
+.diglett input[type="datetime"]:focus,
+.diglett input[type="email"]:focus,
+.diglett input[type="number"]:focus,
+.diglett input[type="search"]:focus,
+.diglett input[type="time"]:focus,
+.diglett input[type="url"]:focus,
+.diglett textarea:focus,
+.diglett select:focus
+{
+    vertical-align:top;
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+.diglett input[type="submit"],
+.diglett input[type="button"]{
+    vertical-align:top;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+.diglett input[type="submit"]:hover,
+.diglett input[type="button"]:hover{
+    background: #2EBC99;
+}
+.diglett textarea{
+    border-radius: 5px;
+}
+
+input[type=text],input[type=password],input[type=date]{
+    vertical-align:top;
+    width: 40%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #4f4f4f;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.container1 {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    margin-left: -190px;
+
+}
+
+.container{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 16px;
+    background-color: rgba(240, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.container h2{
+    background: #43D1AF;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.container h1{
+    background: #43D1AF;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+#nameList{
+    background-color:rgba(240,255,255,0);
+    overflow: auto;
+    height: 270px;
+}
+
+#nameList li{
+    list-style:none;
+    width:94%;
+    height:30px;
+    line-height:30px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    border: solid 2px #CD853F;
+    border-radius: 5px;
+    background: #CD853F;
+}
+
+#nameList li:hover{
+    background: mediumspringgreen;
+}
+
+#nameList li:active{
+    background: #2EBC99;
+}
+
+#groupList{
+    background-color:rgba(240,255,255,0);
+    overflow: auto;
+    height: 240px;
+}
+
+#groupList li{
+    list-style:none;
+    width:94%;
+    height:30px;
+    line-height:30px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    text-align: center;
+    border: solid 2px #CD853F;
+    border-radius: 5px;
+    background: #CD853F;
+}
+
+#groupList li:hover{
+    background: mediumspringgreen;
+}
+
+#groupList li:active{
+    background: #2EBC99;
+
+}
+
+#addgroup{
+    vertical-align:top;
+    text-align: center;
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+
+}
+
+#addgroup-button{
+    vertical-align:top;
+    width: 20%;
+    height: 30px;
+    color: white;
+    background: #43D1AF;
+    border-radius: 5px;
+    border: none;
+}
+#addgroup-form{
+    vertical-align:top;
+    width: 100%;
+
+
+
+
+}

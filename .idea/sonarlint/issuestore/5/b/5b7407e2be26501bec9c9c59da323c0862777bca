@@ -1,0 +1,10 @@
+
+Ksquid:EmptyStatementUsageCheck2"Remove this empty statement.(œ™Æ•úÿÿÿÿ
+V
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ÇçÄï8…ÛÂî-
+^squid:UselessImportCheck
+":Remove this unused import 'javax.persistence.CascadeType'.( ì¤Ê
+Ysquid:UselessImportCheck"5Remove this unused import 'javax.persistence.MapsId'.(²Û¢ˆ
+bsquid:UselessImportCheck"9Remove this unused import 'javax.persistence.EmbeddedId'.(Ñ£ù¢üÿÿÿÿ
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Èı•Ãî-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ìå–Ãî-

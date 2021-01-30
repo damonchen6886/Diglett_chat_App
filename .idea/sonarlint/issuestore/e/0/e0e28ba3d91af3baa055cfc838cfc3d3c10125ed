@@ -1,0 +1,6 @@
+
+]squid:UselessImportCheck"9Remove this unused import 'javax.persistence.JoinColumn'.(´Å¼á
+Fsquid:EmptyStatementUsageCheck-"Remove this empty statement.(±ñÁ·
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8“¬”Ãî-
+asquid:UselessImportCheck"8Remove this unused import 'javax.persistence.JoinTable'.(ùö±µùÿÿÿÿ
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8æ‘•Ãî-

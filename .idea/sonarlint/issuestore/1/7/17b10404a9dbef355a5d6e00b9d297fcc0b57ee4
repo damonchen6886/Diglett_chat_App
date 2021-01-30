@@ -1,0 +1,6 @@
+
+Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ÎÜ¶½î-
+isquid:UselessImportCheck"ERemove this unused import 'com.neu.prattle.service.GroupChatService'.(„¢ˆƒ
+squid:S1488‡"[Immediately return this expression instead of assigning it to the temporary variable "res".(‰çµûÿÿÿÿ8ÎÜ¶½î-
+Wsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+Nsquid:S10684"0Remove this unused "groupService" private field.(½û¸8ÎÜ¶½î-

@@ -1,0 +1,40 @@
+<!DOCTYPE>
+
+<html>
+<head>
+    <title>We Are Digletts!</title>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "style.css" />
+</head>
+<body>
+
+<header>
+
+    <div class="container">
+        <div class="main">
+            <div class = "container">
+                <h1 style="color: black">Register for a Diglett account</h1>
+                <form id="form_id" method="post" name="myform">
+                    <label for="registerUser" style="font-size:18px; font-weight:bold;">Enter Username:</label><br>
+                    <input type="text" id = "registerUser" name="field1" size = "50"/><br>
+                    <label for="registerNickName" style="font-size:18px; font-weight:bold;">Enter nick name:</label><br>
+                    <input type="text" id = "registerNickName" name="field1" size = "50"/><br>
+                    <label for="registerBoD" style="font-size:18px; font-weight:bold;">Choose your birthday:</label><br>
+                    <input type="date" id = "registerBoD" name="registerBoD"  size = "50"/><br>
+                    <label for="registerPassword" style="font-size:18px; font-weight:bold;">Enter Password:</label><br>
+                    <input type="password" id = "registerPassword" name="field1"  size = "50"/><br>
+                    <label for="confirmPassword" style="font-size:18px; font-weight:bold;">Confirm Password:</label><br>
+                    <input type="password" id = "confirmPassword" name="field1" size = "50"/><br>
+                    <div>
+                        <button class = "button"type="button" onclick="register()">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</header>
+</body>
+<script src="../../../web666/websocket.js"></script>
+</html>

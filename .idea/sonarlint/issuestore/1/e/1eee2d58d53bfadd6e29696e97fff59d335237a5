@@ -1,0 +1,6 @@
+
+vsquid:UselessImportCheck"SRemove this unused import 'com.neu.prattle.exceptions.ChatAlreadyPresentException'.(¶èñ7
+gsquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(Ã¢³Õþÿÿÿÿ
+gsquid:CommentedOutCodeLine{"<This block of commented-out lines of code should be removed.(©Ò¹Èûÿÿÿÿ
+bsquid:CommentedOutCodeLinew"<This block of commented-out lines of code should be removed.(†½ÑÖ
+bsquid:CommentedOutCodeLinet"<This block of commented-out lines of code should be removed.(ÜÂºû

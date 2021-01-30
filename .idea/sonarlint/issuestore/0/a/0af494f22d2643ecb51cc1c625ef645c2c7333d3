@@ -1,0 +1,6 @@
+
+[squid:S2147P"DCombine this catch with the one at line 78, which has the same body.(ï­£Ä
+[squid:S2147@"DCombine this catch with the one at line 62, which has the same body.(ï­£Ä
+hsquid:UselessImportCheck"DRemove this unused import 'com.neu.prattle.service.GroupMsgService'.(ÊèŠÜ
+\squid:S1193'"@Replace the usage of the "instanceof" operator by a catch block.(êÏ²—şÿÿÿÿ
+qsquid:UselessImportCheck	"HRemove this unused import 'com.neu.prattle.service.GroupMsgServiceImpl'.(¯³úÿÿÿÿ
