@@ -1,21 +1,27 @@
 # Diglett_chat_App
 a web-based online chatting application that supports 500 users online
 
-### tech Stack:
-*Java*, *Tomcat*, *Hibernate* for ORM, *MySQL* on AWS, *Bootstrap* for frontend UI
+### tech Stacks:
+**Java**, **Tomcat**, **Hibernate** for ORM, **MySQL** on AWS, **Bootstrap** for frontend UI
 
 
-### design:
+### Design:
 
 #### system Architecture:
+
 ![alt text](https://github.com/damonchen6886/Diglett_chat_App/blob/master/Documnets/system%20architecture.jpeg?raw=true)
 
 #### Database Design Diagram:
+
 ![alt text](https://github.com/damonchen6886/Diglett_chat_App/blob/master/Documnets/UML.png?raw=true)
 
 
-#### sample UI:
-![alt text](https://github.com/damonchen6886/Diglett_chat_App/blob/master/Documnets/usecases.pdf?raw=true)
+
+#### Sample UI:
+![alt text](https://github.com/damonchen6886/Diglett_chat_App/blob/master/Documnets/0001.jpg?raw=true)
+![alt text](https://github.com/damonchen6886/Diglett_chat_App/blob/master/Documnets/0002.jpg?raw=true)
+![alt text](https://github.com/damonchen6886/Diglett_chat_App/blob/master/Documnets/0003.jpg?raw=true)
+![alt text](https://github.com/damonchen6886/Diglett_chat_App/blob/master/Documnets/0004.jpg?raw=true)
 
 #### User-cases:
 ![alt text](https://github.com/damonchen6886/Diglett_chat_App/blob/master/Documnets/UML(user-case).jpeg?raw=true)
@@ -24,7 +30,7 @@ a web-based online chatting application that supports 500 users online
 
 
 
-## contributors
+## Contributors
 - Chen Gu
 - Jiahao Song
 - Weihan Liu
