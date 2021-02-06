@@ -1,5 +1,5 @@
 # Diglett_chat_App
-a web-based online chatting application that supports 500 users online
+A web-based online chatting application that supports 500 users online
 
 ### Tech Stacks:
 **Java** for backend (**Tomcat**, **Hibernate**), **MySQL** on AWS, **Bootstrap** for frontend UI
